@@ -8,10 +8,23 @@ __pycache__/
 
 # Ignore video files
 videos/*.mp4
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+videos/*.mkv
+
+# Ignore output files
+outputs/
+results/
+*.log
 
 # Ignore model weights
 *.pt
 
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
 
 # Distribution / packaging
 .Python
