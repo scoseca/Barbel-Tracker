@@ -1,0 +1,7 @@
+ultralytics==8.0.197   # Per YOLOv8
+opencv-python==4.8.1.78
+filterpy==1.4.5         # Per Kalman Filter (usato in DeepSORT)
+torch>=2.0              # PyTorch (richiesto da YOLOv8)
+numpy
+matplotlib              # Per disegnare grafici opzionali
+git+https://github.com/nwojke/deep_sort
